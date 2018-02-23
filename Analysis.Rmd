@@ -1,6 +1,6 @@
 ---
 title: "HW4 Rmarkdown and Litterfall Module Synthesis"
-author: "Don Francisco"
+author: "Courtney Lopez"
 date: "2/22/2018"
 output:
   word_document: default
@@ -19,6 +19,16 @@ Delete this text, and add 3-4 paragraphs of introduction. This should include ba
 Describe briefly where the data came from, including how they were collected in the field (information is in the pdf file in the data folder), and how you are analyzing them (e.g. using R to visualize the results and an ANOVA to test for significant differences).
 
 # Results
+
+```{r}
+# read in litterfall data
+litterfall_data <- read.csv("data/ltr_massdata.csv",
+                            header = TRUE)
+```
+
+```{r}
+# subset 
+```
 
 Add a number of code chunks in the Results section. These should read in, subset and plot the data as needed (no need to save it to pdf, since it will be put into the rendered docx when you click 'knit'), and, for any boxplots you make, run an appropriate statistical test on your dataset.
 
