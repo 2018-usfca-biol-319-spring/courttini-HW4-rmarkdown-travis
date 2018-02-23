@@ -43,7 +43,8 @@ Steps:
 1. Open a pull request back to the class repository to submit your assignment. Make sure the Pull Request (PR) has a useful description of the changes you made. 20% of your points this week will be based on your code passing the automated checks on Travis-CI. This will check for two things: that your Rmd file can be successfully knitted, and that your code follow proper style guidelines. If you want to check for any style errors while you are working on the code, you can install the 'lintr' package by typing the following at the console:
 
 ```r
-install.packages("lintr")
+install.packages("devtools")
+devtools::install_github("jimhester/lintr")
 ```
 
 and then whenever you want to check your code you can run at the R console (the command prompt) in RStudio:
