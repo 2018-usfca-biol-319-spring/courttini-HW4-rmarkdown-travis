@@ -56,6 +56,16 @@ Guan_data <- subset(Leaves,
                     siteID == "GUAN")
 ```
 
+```{r}
+# make a scatterplot of leaves at "GUAN"
+plot(x = as.POSIXct(Guan_data$collectDate),
+     y = Guan_data$dryMass,
+     main = "Dry mass of flowers fallen in Treehaven",
+     xlab = "Collection Date",
+     ylab = "Dry mass of Leaves in grams",
+     pch = "*")
+```
+
 
 # Discussion
 
