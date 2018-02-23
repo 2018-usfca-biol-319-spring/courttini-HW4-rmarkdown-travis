@@ -12,9 +12,9 @@ Please follow the instructions carefully and read them all before getting starte
 This second assignment will be worth 10 points. The grading breakdown will be as follows:
 
 * 5 points - Completes all required steps (as outlined below)
-* 1.5 points - R script is appropriately commented and well organized
-* 1.5 points - Appropriate use of git to version control the steps, including adding and committing the appropriate files at the specific steps below, and writing informative and appropriately formatted commit messages and pull request description 
-* 2 points - The final commit before the deadline passes Travis-CI checks (successful knitting and code style, details at the bottom of this Readme). Since Travis will only run on your code once you open a pull request (PR), feel free to open your PR well before the deadline to test it out
+* 1.5 points - R code chunks are appropriately commented, properly labeled, and well organized
+* 1.5 points - Appropriate use of git to version control the steps, including adding and committing the appropriate files at the specific steps below, and writing informative and appropriately formatted commit messages and an informative and appropriate pull request description 
+* 2 points - The final commit before the deadline passes Travis-CI checks (successful knitting and proper code style, details at the bottom of this README). Since Travis will only run on your code once you open a pull request (PR), feel free to open your PR well before the deadline to test it out
 
 You must submit your work as a Pull Request to the class organization ('2018-usfca-biol-319-spring') on GitHub by 11:59 pm on Monday, February 26 for full credit. Late assignments will not be accepted, since we will be peer reviewing each other's code after it is submitted.
 
