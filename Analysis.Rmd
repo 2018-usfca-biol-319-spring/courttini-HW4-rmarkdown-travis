@@ -78,4 +78,8 @@ plot(x = as.POSIXct(Guan_data$collectDate),
 
 # Discussion
 
+Analyzing the dry mass of leaves fallen from the seven sites of Bartlett Experimental Forest (BART), Guanica Forest (GUAN), Harvard Forest (HARV), Santa Rita Experimental Range (SRER), Steigerwaldt Land Services (STEI), Treehaven (TREE), and UNDERC (UNDE) showed many interesting findings. From looking at the boxplot, there did not seem to be a big differene in leaf fall between the sites. Overall, it shows that GUAN and UNDE has the most amount of dry mass of leaves than the other sites. The site with the least amout of dry mass of leaves is SRER.    
+From looking at the boxplot, there did not seem to be a big differene  
+
+
 Discuss the results you found. In the context of what you know about the site/sites and the predominant types of vegatation in those locations. What do the results indicate about the flow of C and N from the autotrophic biota and into the soil in comparison to what occurs at other sites and over time?
