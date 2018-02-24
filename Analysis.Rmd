@@ -12,12 +12,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-The National Ecological Observatory Network (NEON) is an ecological observation facility that collects data on rapidly changing ecological processes in the United States. NEON has standardized data from 81 field sites that span across the United States within 20 eco-climatic domains that represent regions of distinct land forms, vegetation, climate, and ecosystem dynamics. NEON measures the causes and effects of environmental change in different types of environments. The different types of field sites include core terrestrial sites, core aquatic sites, relocatable terrestrial sites, and relocatable aquatic sites. The different sites ensure that the data will statistically represent ecological, physical, and biological differences spanning the continent. As seen from the image below, the field sites are also in Alaska, Hawaii, and Puerto Rico. 
+The National Ecological Observatory Network (NEON) is an ecological observation facility that collects data on rapidly changing ecological processes in the United States. NEON has standardized data from 81 field sites that span across the United States within 20 eco-climatic domains that represent regions of distinct land forms, vegetation, climate, and ecosystem dynamics. NEON measures the causes and effects of environmental change in different types of environments. 
+
+The different types of field sites include core terrestrial sites, core aquatic sites, relocatable terrestrial sites, and relocatable aquatic sites. The different sites ensure that the data will statistically represent ecological, physical, and biological differences spanning the continent. As seen from the image below, the field sites are also in Alaska, Hawaii, and Puerto Rico. This image shows where the NEON sites are located including where the four different types of sites are located.
 
 ![](data/2017_NEONDomainOverview.jpg)
-This image shows where the NEON sites are located including where, aquatic sites, NEON core sites, and NEON relocatable sites are located. Understanding this data is important because it can be used by scientists, researchers, professors, and students to gain knowledge about ecological differences between different environments on recent ongoing data collection.
+At the varying sites multiple different functional groups of dry mass are recorded depending the location of the site. This includes dry mass of flowers, leaves, mixed, needles, other, seeds, twigs/branches, and woody material. The sites that I will be focussing on for this analysis are the terrestrial sites. Specifically, I will be focusing on the dry mass of leaves at the terrestrial sites of Bartlett Experimental Forest (BART), Guanica Forest(GUAN), (HARV), (SRER), (STEI), (TREE), (UNDE). I also chose to do a more in depth analysis of the GUAN dry mass of leaves, and look at what time of the  
 
-At the varying sites multiple different functional groups of dry mass are recorded. This includes dry mass of flowers, leaves, mixed, needles, other, seeds, twigs/branches, and woody material. The sites that I will be focussing on for this analysis are the terrestrial sites. 
+
+Understanding this data is important because it can be used by scientists, researchers, professors, and students to gain knowledge about ecological differences between different environments on recent ongoing data collection.
 
 (http://www.neonscience.org)
 
