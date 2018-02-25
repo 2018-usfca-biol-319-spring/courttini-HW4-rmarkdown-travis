@@ -20,7 +20,7 @@ The different types of field sites include core terrestrial sites, core aquatic 
 
 At the varying sites multiple different functional groups of dry mass are recorded depending the location of the site. This includes dry mass of flowers, leaves, mixed, needles, other, seeds, twigs/branches, and woody material. The sites that I will be focusing on for this analysis are the terrestrial sites. Specifically, I will be focusing on the dry mass of leaves at the terrestrial sites of Bartlett Experimental Forest (BART), Guanica Forest (GUAN), Harvard Forest (HARV), Santa Rita Experimental Range (SRER), Steigerwaldt Land Services (STEI), Treehaven (TREE), and UNDERC (UNDE). I also chose to do a more in depth analysis of the GUAN dry mass of leaves, and look at what time of the year had the most and the least amount dry mass.  
 
-Understanding this data is important because it can be used by scientists, researchers, professors, and students to gain knowledge about ecological differences between different environments on recent ongoing data collection.
+Understanding this data is important because it can be used by scientists, researchers, professors, and students to gain knowledge about ecological differences between different environments on recent ongoing data collection. 
 
 (http://www.neonscience.org)
 
@@ -38,14 +38,14 @@ litterfall_data <- read.csv("data/ltr_massdata.csv",
 
 ```{r}
 # subset litterfall data to only show leaves
-Leaves <- subset(litterfall_data,
+leaves <- subset(litterfall_data,
                  functionalGroup == "Leaves")
 ```
 
 ```{r}
 # mass of litter by functional type
 boxplot(dryMass ~ siteID,
-        data = Leaves,
+        data = leaves,
         main = "Mass of litterfall of Leaves",
         xlab = "SiteID's of Leaves Fallen",
         ylab = "Dry mass of litter in grams",
@@ -55,21 +55,21 @@ boxplot(dryMass ~ siteID,
 ```{r}
 # test for significance between the groups
 anova(lm(dryMass ~ siteID,
-         data = Leaves))
+         data = leaves))
 ```
 
 A statistical test of an ANOVA was used to determine if there is a significant difference of leaves fallen between the seven sites used in the box plot. The null hypothesis for an ANOVA test is there is no significant difference between the dry mass value of leaves fallen at each site. When we visualize the numbers from the ANOVA test, we see that there is a significant difference and we reject the null hypothesis. The ANOVA test came up with a P value less than <0.05. (ANOVA p = 2.2e-16).
 
 ```{r}
 # subset a certain target site for leaves
-Guan_data <- subset(Leaves,
+guan_data <- subset(leaves,
                     siteID == "GUAN")
 ```
 
 ```{r}
 # make a scatterplot of leaves at "GUAN"
-plot(x = as.POSIXct(Guan_data$collectDate),
-     y = Guan_data$dryMass,
+plot(x = as.POSIXct(guan_data$collectDate),
+     y = guan_data$dryMass,
      main = "Dry mass of flowers fallen in Treehaven",
      xlab = "Collection Date",
      ylab = "Dry mass of Leaves in grams",
