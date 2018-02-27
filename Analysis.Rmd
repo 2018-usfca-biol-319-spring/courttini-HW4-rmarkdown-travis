@@ -3,14 +3,14 @@ title: "HW4 Rmarkdown and Litterfall Module Synthesis"
 author: "Courtney Lopez"
 date: "2/22/2018"
 output:
-  word_document: default
+  github_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Introduction
+# Introduction 
 
 The National Ecological Observatory Network (NEON) is an ecological observation facility that collects data on rapidly changing ecological processes in the United States. NEON has standardized data from 81 field sites that span across the United States within 20 eco-climatic domains that represent regions of distinct land forms, vegetation, climate, and ecosystem dynamics. NEON measures the causes and effects of environmental change in different types of environments. 
 
