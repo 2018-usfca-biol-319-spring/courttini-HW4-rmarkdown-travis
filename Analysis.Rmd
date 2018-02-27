@@ -66,7 +66,7 @@ guan_data <- subset(leaves,
                     siteID == "GUAN")
 ```
 
-```{r}
+```{r make-scatterplot}
 # make a scatterplot of leaves at "GUAN"
 plot(x = as.POSIXct(guan_data$collectDate),
      y = guan_data$dryMass,
